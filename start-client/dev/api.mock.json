@@ -176,6 +176,18 @@
               },
               "reference": { "href": "https://vaadin.com/docs" }
             }
+          },
+          {
+            "id": "hilla",
+            "name": "Hilla",
+            "description": "An open source framework that integrates a Spring Boot Java backend with a reactive TypeScript frontend.",
+            "_links": {
+              "guide": {
+                "href": "https://hilla.dev/docs",
+                "title": "Hilla Documentation"
+              },
+              "reference": { "href": "https://hilla.dev/docs" }
+            }
           }
         ]
       },

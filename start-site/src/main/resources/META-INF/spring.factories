@@ -18,5 +18,6 @@ io.spring.start.site.extension.dependency.springpulsar.SpringPulsarProjectGenera
 io.spring.start.site.extension.dependency.springrestdocs.SpringRestDocsProjectGenerationConfiguration,\
 io.spring.start.site.extension.dependency.testcontainers.TestcontainersProjectGenerationConfiguration,\
 io.spring.start.site.extension.dependency.vaadin.VaadinProjectGenerationConfiguration,\
+io.spring.start.site.extension.dependency.hilla.HillaProjectGenerationConfiguration,\
 io.spring.start.site.extension.description.DescriptionProjectGenerationConfiguration,\
 io.spring.start.site.extension.code.kotlin.KotlinProjectGenerationConfiguration
