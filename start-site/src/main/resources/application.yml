@@ -62,6 +62,8 @@ initializr:
             version: 1.1.0
           - compatibilityRange: "[2.6.0.M1,3.0.0-M1)"
             version: 1.2.2
+          - compatibilityRange: "3.0.0-M1"
+            version: 2.0.0
       solace-spring-cloud:
         groupId: com.solace.spring.cloud
         artifactId: solace-spring-cloud-bom
@@ -73,6 +75,8 @@ initializr:
             version: 2.1.0
           - compatibilityRange: "[2.6.0.M1,3.0.0-M1)"
             version: 2.3.2
+          - compatibilityRange: "3.0.0-M1"
+            version: 3.0.0
       spring-cloud:
         groupId: org.springframework.cloud
         artifactId: spring-cloud-dependencies
@@ -117,6 +121,9 @@ initializr:
             repositories: spring-milestones
           - compatibilityRange: "[3.0.0,3.1.0-M1)"
             version: 2022.0.2
+          - compatibilityRange: "3.1.0-M1"
+            version: 2022.0.3-SNAPSHOT
+            repositories: spring-snapshots
       spring-cloud-azure:
         groupId: com.azure.spring
         artifactId: spring-cloud-azure-dependencies
@@ -135,9 +142,9 @@ initializr:
           - compatibilityRange: "[2.4.0-M1,2.6.0-M1)"
             version: 2.0.11
           - compatibilityRange: "[2.6.0-M1,3.0.0-M1)"
-            version: 3.5.0
+            version: 3.5.1
           - compatibilityRange: "[3.0.0-M1,3.1.0-M1)"
-            version: 4.3.0
+            version: 4.3.1
       spring-cloud-services:
         groupId: io.pivotal.spring.cloud
         artifactId: spring-cloud-services-dependencies
@@ -569,7 +576,7 @@ initializr:
               description: R2DBC Homepage
         - name: MyBatis Framework
           id: mybatis
-          compatibilityRange: "[2.0.0.RELEASE,3.1.0-M1)"
+          compatibilityRange: "[2.0.0.RELEASE,3.2.0-M1)"
           description: Persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations.
           links:
             - rel: guide
@@ -585,9 +592,9 @@ initializr:
             - compatibilityRange: "[2.5.0-M1,2.7.0-M1)"
               version: 2.2.2
             - compatibilityRange: "[2.7.0-M1,3.0.0-M1)"
-              version: 2.3.0
+              version: 2.3.1
             - compatibilityRange: "3.0.0-M1"
-              version: 3.0.1
+              version: 3.0.2
         - name: Liquibase Migration
           id: liquibase
           description: Liquibase database migration and source control library.
@@ -933,7 +940,7 @@ initializr:
         - name: Solace PubSub+
           bom: solace-spring-boot
           id: solace
-          compatibilityRange: "[2.2.0.RELEASE,3.0.0-M1)"
+          compatibilityRange: "[2.2.0.RELEASE,3.2.0-M1)"
           description: Connect to a Solace PubSub+ Advanced Event Broker to publish, subscribe, request/reply and store/replay messages
           groupId: com.solace.spring.boot
           artifactId: solace-spring-boot-starter
@@ -1168,7 +1175,6 @@ initializr:
               href: https://www.testcontainers.org/
         - name: Contract Verifier
           bom: spring-cloud
-          compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
           id: cloud-contract-verifier
           description: Moves TDD to the level of software architecture by enabling Consumer Driven Contract (CDC) development.
           groupId: org.springframework.cloud
@@ -1211,7 +1217,6 @@ initializr:
               href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#data.nosql.mongodb.embedded
     - name: Spring Cloud
       bom: spring-cloud
-      compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
       content:
         - name: Cloud Bootstrap
           id: cloud-starter
@@ -1268,7 +1273,6 @@ initializr:
               description: Using Spring Cloud Open Service Broker
     - name: Spring Cloud Config
       bom: spring-cloud
-      compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
       content:
         - name: Config Client
           id: cloud-config-client
@@ -1323,7 +1327,6 @@ initializr:
               description: Spring Cloud Consul Quick Start
     - name: Spring Cloud Discovery
       bom: spring-cloud
-      compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
       content:
         - name: Eureka Discovery Client
           id: cloud-eureka
@@ -1382,7 +1385,6 @@ initializr:
               href: https://docs.spring.io/spring-cloud-consul/docs/current/reference/html/#spring-cloud-consul-discovery
     - name: Spring Cloud Routing
       bom: spring-cloud
-      compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
       content:
         - name: Gateway
           id: cloud-gateway
@@ -1419,7 +1421,6 @@ initializr:
               href: https://docs.spring.io/spring-cloud-commons/docs/current/reference/html/#spring-cloud-loadbalancer
     - name: Spring Cloud Circuit Breaker
       bom: spring-cloud
-      compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
       content:
         - name: Resilience4J
           id: cloud-resilience4j
@@ -1431,7 +1432,6 @@ initializr:
               href: https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/#configuring-resilience4j-circuit-breakers
     - name: Spring Cloud Messaging
       bom: spring-cloud
-      compatibilityRange: "[2.3.0.M1,3.1.0-M1)"
       content:
         - name: Cloud Bus
           id: cloud-bus
