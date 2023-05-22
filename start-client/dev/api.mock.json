@@ -183,8 +183,8 @@
             "description": "An open source framework that integrates a Spring Boot Java backend with a reactive TypeScript frontend.",
             "_links": {
               "guide": {
-                "href": "https://hilla.dev/docs",
-                "title": "Hilla Documentation"
+                "href": "https://hilla.dev/docs/react/start/quick/#coming-from-spring-initializr",
+                "title": "Next Steps with Hilla"
               },
               "reference": { "href": "https://hilla.dev/docs" }
             }
