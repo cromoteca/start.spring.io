@@ -25,6 +25,7 @@ import io.spring.initializr.metadata.InitializrMetadata;
  * A {@link BuildCustomizer} that registers Hilla's Gradle plugin.
  *
  * @author Stephane Nicoll
+ * @author Luciano Vernaschi
  */
 class HillaGradleBuildCustomizer implements BuildCustomizer<GradleBuild> {
 

@@ -24,6 +24,7 @@ import io.spring.initializr.generator.spring.build.BuildCustomizer;
  * mode.
  *
  * @author Stephane Nicoll
+ * @author Luciano Vernaschi
  */
 class HillaMavenBuildCustomizer implements BuildCustomizer<MavenBuild> {
 

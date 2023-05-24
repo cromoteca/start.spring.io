@@ -50,7 +50,7 @@ class HillaProjectGenerationConfiguration {
 
 	@Bean
 	GitIgnoreCustomizer hillaGitIgnoreCustomizer() {
-		return (gitignore) -> gitignore.getGeneral().add("node_modules");
+		return (gitignore) -> gitignore.getGeneral().add("node_modules/", "frontend/generated/");
 	}
 
 }
